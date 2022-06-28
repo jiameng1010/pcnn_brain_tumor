@@ -1,0 +1,27 @@
+basics:
+  dataset_dir: /home/mjia/Researches/Volume_Segmentation/TumorMRI/TumorMRI_code
+  traindata_file: ALL_training_pointclouds_inv.h5
+  total_training: 330
+  total_validation: 100
+
+deformation_randomness:
+  Young: 1000000.0
+  Poisson: 0.49
+  Gaussian_scale: 0.5
+sample_para:
+  bbox_padding: 0.15
+  num_onsurface_points: 8192
+  num_around_surface: 8192
+  Gaussian_scale: 0.007
+  num_uniform: 8192
+
+training:
+  batch_size: 4
+  num_points1: 1250
+  num_points2: 250
+  num_points: 1500
+  num_sample_points: 1500
+  around_uniform_ratio: 0.35
+  do_rotation: 1
+  scale_to: 0.3
+

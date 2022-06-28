@@ -1,0 +1,13 @@
+n: num of nodes 29545
+m: num of elements 159014
+
+stiffness: 			3n*3n
+mass: 				n*n
+lumped_mass:			n*n		
+laplacian:			n*n
+displacement_strain:		6m*3n
+elasticity_tensor:		6m*6m
+engineer_strain_stress:		6m*6m
+rigid_motion:			6*3n
+gradient:			3m*n
+graph_laplacian:		n*n
